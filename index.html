@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="Alertify/alertify.core.css">
+    <link rel="stylesheet" href="Alertify/alertify.default.css">
+    <script src="Alertify/alertify.min.js"></script>
 </head>
 <body>
     <div style="margin: 0 auto; width: 600px;">
@@ -14,7 +18,14 @@
         </div>
         <canvas id="canvas"></canvas>
     </div>
-    
+    <div style="width: 1000px; margin: 0 auto; text-align: center; font-size: 30px; display: flex; justify-content: space-between;">
+        <h1 id="firstColor"></h1>
+        <h1 id="secondColor"></h1>
+    </div>
+    <div style="width: 1000px; margin: 0 auto; text-align: center; font-size: 30px; display: flex; justify-content: space-between;">
+        <input style="font-size: 30px;" type="button" value="Copy first" onclick="copyText1()">
+        <input style="font-size: 30px;" type="button" value="Copy second" onclick="copyText2()">
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
