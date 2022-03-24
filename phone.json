@@ -1,0 +1,13 @@
+{
+    "title": "Samsung",
+    "price": "13000 грн",
+    "ram": "8 Гб",
+    "camera": "64 Мп + 12 Мп + 5 Мп + 5 Мп",
+    "communication": [
+        "3.5 mm Mini-Jack",
+        "Bluetooth 5.0",
+        "NFC",
+        "USB Type-C",
+        "Wi-Fi"
+    ]
+}
